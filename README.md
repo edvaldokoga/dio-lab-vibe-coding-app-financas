@@ -1,89 +1,192 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 Bolso.AI — Organização Financeira com Inteligência Artificial
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+O **Bolso.AI** é um conceito de aplicativo de organização financeira pessoal baseado em conversas com Inteligência Artificial.
 
-## ✨ O que é Vibe Coding
+O projeto foi desenvolvido como parte do desafio **App de Organização de Finanças Pessoais com Vibe Coding**, da DIO, utilizando IA como parceira na definição do produto, criação do PRD, planejamento do MVP e refinamento da experiência.
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+> **"Organizar, explicar e sugerir — nunca julgar."**
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+---
 
-## 🎯 Desafio
+## 🎯 Objetivo
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+O Bolso.AI busca facilitar a organização financeira para pessoas que não gostam de planilhas, formulários ou processos complexos.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+Em vez de preencher vários campos, o usuário pode simplesmente conversar:
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+> "Gastei R$ 72 no mercado hoje."
 
-## 🪄 Etapas do Desafio
+O aplicativo interpreta a mensagem, identifica o valor, a categoria e a data e registra a movimentação.
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+---
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+# 📋 PRD — Product Requirements Document
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+## Contexto
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+O **Bolso.AI** é um aplicativo de organização financeira pessoal baseado em conversas com Inteligência Artificial.
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+A proposta é tornar o controle financeiro mais simples e natural, permitindo que o usuário informe gastos, receitas e objetivos utilizando linguagem cotidiana.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+## Problema
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+Muitas pessoas têm dificuldade em manter um controle financeiro constante porque consideram o processo trabalhoso, complicado ou demorado.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+O Bolso.AI busca reduzir esse atrito utilizando uma experiência conversacional, permitindo que organizar as finanças seja tão simples quanto enviar uma mensagem.
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+## Público-alvo
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+Pessoas que:
 
-### 2. Explorando o Lovable na Prática
+- estão começando a organizar suas finanças;
+- possuem pouca familiaridade com planejamento financeiro;
+- não gostam de utilizar planilhas;
+- querem acompanhar gastos e receitas de maneira simples;
+- desejam criar metas de economia.
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+## 🚀 Funcionalidades-chave do MVP
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+### 1. Registro financeiro por conversa
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+O usuário poderá registrar receitas e despesas utilizando linguagem natural.
 
-### 3. Entregando o Desafio na DIO
+### 2. Classificação automática
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+A IA identifica categorias como alimentação, transporte, moradia, lazer e saúde. O usuário poderá corrigir a classificação quando necessário.
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+### 3. Metas financeiras
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+O usuário poderá criar e acompanhar objetivos financeiros conversando com o agente.
 
-## 💬 Conclusão
+### 4. Agente Financeiro
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+O agente analisará as informações registradas e apresentará orientações simples, educativas e não julgadoras.
+
+### 5. Resumo financeiro
+
+O aplicativo apresentará receitas, despesas, saldo, principais categorias de gastos e progresso das metas de maneira simples.
+
+---
+
+# 🤖 Agente Financeiro
+
+O Agente Financeiro do Bolso.AI deve possuir comunicação:
+
+- amigável;
+- educativa;
+- objetiva;
+- não julgadora;
+- proativa quando houver informações úteis.
+
+Exemplo:
+
+**Usuário:**
+
+> "Gastei R$ 72 no mercado hoje."
+
+**Bolso.AI:**
+
+> "✅ Mercado registrado: R$ 72,00 em Alimentação. Você gastou R$ 185 com alimentação esta semana."
+
+Quando houver ambiguidade, o agente deverá pedir confirmação antes de registrar a informação.
+
+---
+
+# 📱 Fluxo Conceitual
+
+O fluxo principal do MVP será:
+
+**Boas-vindas → Chat com IA → Registro de movimentação → Resumo financeiro → Metas**
+
+O chat funciona como o centro da experiência, permitindo que diversas ações sejam realizadas apenas por meio da conversa.
+
+---
+
+# 🧪 Validação do MVP
+
+O MVP poderá ser apresentado a um pequeno grupo de usuários iniciantes em organização financeira.
+
+As principais tarefas do teste serão:
+
+1. Registrar uma despesa;
+2. Registrar uma receita;
+3. Criar uma meta;
+4. Consultar os gastos do mês;
+5. Verificar o progresso da meta.
+
+## 📈 Indicadores
+
+Para avaliar a experiência poderão ser observados:
+
+- taxa de conclusão das tarefas;
+- tempo necessário para registrar uma movimentação;
+- quantidade de correções nas classificações automáticas;
+- satisfação dos usuários;
+- intenção de utilizar o aplicativo novamente.
+
+---
+
+# 💡 Refinamento com IA
+
+Durante o processo de Vibe Coding, o conceito foi analisado e refinado com auxílio de ferramentas de Inteligência Artificial.
+
+Entre as melhorias incorporadas estão:
+
+- confirmação apenas quando houver ambiguidade;
+- feedback imediato após o registro de movimentações;
+- resumos financeiros simples;
+- insights semanais integrados ao Agente Financeiro.
+
+O objetivo foi preservar um MVP pequeno e validar primeiro sua principal hipótese:
+
+> **Uma experiência financeira baseada em conversa com IA pode tornar o controle das finanças pessoais mais simples?**
+
+---
+
+# 📸 Processo de Vibe Coding
+
+Nesta etapa foram utilizados prompts para desenvolver e refinar:
+
+- o PRD;
+- o comportamento do Agente Financeiro;
+- o fluxo conceitual;
+- o plano de MVP;
+- a estratégia de validação.
+
+As interações com IA ajudaram a transformar uma ideia inicial em um conceito de produto estruturado.
+
+---
+
+# 🧠 Reflexão sobre o processo
+
+## O que funcionou bem?
+
+A utilização de prompts claros e contextualizados permitiu obter respostas mais próximas do objetivo do projeto. Dividir o desenvolvimento em etapas também facilitou o refinamento das ideias.
+
+## O que não funcionou como esperado?
+
+Foi necessário avaliar as sugestões das ferramentas de IA para evitar aumentar excessivamente o escopo do MVP. Nem toda funcionalidade sugerida precisava fazer parte da primeira versão.
+
+## O que aprendi sobre conversar com IAs?
+
+Aprendi que fornecer contexto, objetivo, público-alvo e limitações produz resultados melhores do que fazer solicitações muito genéricas.
+
+Também percebi que a IA funciona melhor como parceira no processo criativo: ela pode propor caminhos e melhorias, mas as decisões finais ainda precisam ser avaliadas de acordo com o objetivo do projeto.
+
+---
+
+# 🛠️ Tecnologias e conceitos explorados
+
+- Inteligência Artificial Generativa
+- Vibe Coding
+- Prompt Engineering
+- MVP (Produto Mínimo Viável)
+- PRD (Product Requirements Document)
+- UX Conversacional
+- Agentes de IA
+
+---
+
+## 📚 Projeto educacional
+
+Projeto desenvolvido para um desafio da **Digital Innovation One (DIO)** com foco na aplicação prática de Vibe Coding e Inteligência Artificial no desenvolvimento conceitual de produtos.
